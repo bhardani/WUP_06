@@ -81,7 +81,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-
+On the numerical data, the white people strongly agree with the death sentence, other is slightly in favor of the death sentence and black people are lightly against the death sentence. This is showing that the attitude twards the death sentence vary through race.
 
 ## Inferential Results
 
@@ -102,7 +102,7 @@ fisher.test(table2)
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
- 
+ The p value of the first chunk has a p value of.00000000000002033 and the second chunk has a p value of .02479 which are both smaller then .05. Therefore we can conclude that there is a difference in race and thoughts on the death sentence.
 
 # Discussion and Conclusion
 
